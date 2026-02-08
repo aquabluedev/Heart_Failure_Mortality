@@ -31,7 +31,6 @@ def prepare_model():
         X_train_scaled = scaler.fit_transform(X_train_res)
         
         print("Step 5: Training Optimized XGBoost Model...")
-        # We explicitly set use_label_encoder=False and eval_metric to avoid warnings
         model = XGBClassifier(
             n_estimators=1500,
             learning_rate=0.01,
@@ -58,3 +57,4 @@ def prepare_model():
 
 if __name__ == "__main__":
     prepare_model()
+
