@@ -1,6 +1,6 @@
 # Heart Failure Mortality Prediction
 
-This project uses Machine Learning to predict the mortality risk of patients with heart failure based on 12 clinical features.
+This project uses machine learning to predict the mortality risk of patients with heart failure based on 12 clinical features.
 
 ## Research & Model Selection
 In this study, I compared three distinct approaches to identify the most robust predictor for clinical heart failure mortality data:
@@ -35,5 +35,8 @@ In this study, I compared three distinct approaches to identify the most robust 
 
 ## Dataset
 The dataset contains 299 clinical records of heart failure patients, originally sourced from the BMC Medical Informatics and Decision Making journal.
+
+Chicco D, Jurman G. Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Med Inform Decis Mak. 2020 Feb 3;20(1):16. doi: 10.1186/s12911-020-1023-5. PMID: 32013925; PMCID: PMC6998201.
+
 
 
